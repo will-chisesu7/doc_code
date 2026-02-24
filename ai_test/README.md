@@ -1,6 +1,6 @@
 # ai_test
 
-A collection of Python programs including a login portal, quiz game, and pizza recipe maker.
+A collection of Python utility programs and tools.
 
 ## Projects
 
@@ -45,6 +45,122 @@ An interactive pizza recipe builder.
 **Run:**
 ```bash
 python3 pizza.py
+```
+
+---
+
+### Weather App (`weather_app.py`)
+Real-time weather and 5-day forecast for any city.
+
+**Features:**
+- Current temperature, humidity, wind speed, and conditions
+- 5-day forecast with daily high/low and rainfall
+- No API key required (uses Open-Meteo)
+
+**Run:**
+```bash
+python3 weather_app.py
+```
+
+---
+
+### Calculator (`calculator.py`)
+Basic and scientific calculator.
+
+**Features:**
+- Basic operations: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+- Scientific: `sqrt`, `sin`, `cos`, `tan`, `log`, `log10`
+
+**Run:**
+```bash
+python3 calculator.py
+```
+
+---
+
+### To-Do List (`todo_list.py`)
+Task manager that saves tasks to a file.
+
+**Features:**
+- Add, view, complete, and delete tasks
+- Tasks saved to `tasks.json`
+
+**Run:**
+```bash
+python3 todo_list.py
+```
+
+---
+
+### Currency Converter (`currency_converter.py`)
+Live currency conversion using real-time exchange rates.
+
+**Features:**
+- Supports all major world currencies
+- Fetches live rates from open.er-api.com
+
+**Run:**
+```bash
+python3 currency_converter.py
+```
+
+---
+
+### Password Generator (`password_generator.py`)
+Generate strong random passwords.
+
+**Features:**
+- Customise length, uppercase, numbers, and symbols
+- Generate up to 10 passwords at once
+- Displays password strength rating
+
+**Run:**
+```bash
+python3 password_generator.py
+```
+
+---
+
+### Countdown Timer (`countdown_timer.py`)
+Set a countdown timer by hours, minutes, and seconds.
+
+**Features:**
+- Live countdown display
+- Alert when time is up
+
+**Run:**
+```bash
+python3 countdown_timer.py
+```
+
+---
+
+### BMI Calculator (`bmi_calculator.py`)
+Calculate Body Mass Index in metric or imperial units.
+
+**Features:**
+- Supports kg/cm and lbs/inches
+- Displays BMI category (Underweight, Normal, Overweight, Obese)
+
+**Run:**
+```bash
+python3 bmi_calculator.py
+```
+
+---
+
+### Unit Converter (`unit_converter.py`)
+Convert between common units of measurement.
+
+**Features:**
+- Length: km/miles, metres/feet
+- Weight: kg/lbs, grams/ounces
+- Temperature: Celsius, Fahrenheit, Kelvin
+- Speed: km/h, mph, m/s
+
+**Run:**
+```bash
+python3 unit_converter.py
 ```
 
 ---
