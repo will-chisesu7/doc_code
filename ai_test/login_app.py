@@ -5,6 +5,31 @@ import os
 from datetime import datetime
 
 USERS_FILE = "users.json"
+PROFILE_FILE = "profile.json"
+
+
+def load_profile():
+    if os.path.exists(PROFILE_FILE):
+        with open(PROFILE_FILE) as f:
+            return json.load(f)
+    return None
+
+
+def show_profile():
+    profile = load_profile()
+    if not profile:
+        return
+    print("\n" + "-" * 50)
+    print("           YOUR PROFILE")
+    print("-" * 50)
+    print(f"  Name:     {profile.get('name', 'N/A')}")
+    print(f"  Role:     {profile.get('role', 'N/A')}")
+    print(f"  Location: {profile.get('location', 'N/A')}")
+    print(f"  Email:    {profile.get('email', 'N/A')}")
+    skills = profile.get("skills", [])
+    if skills:
+        print(f"  Skills:   {', '.join(skills[:4])}{'...' if len(skills) > 4 else ''}")
+    print("-" * 50)
 
 
 def load_users():
@@ -95,6 +120,7 @@ def login():
             print(f"Province: {province}")
             print("Your details have been saved.")
             print("=" * 50)
+            show_profile()
             return True
 
     except KeyboardInterrupt:
