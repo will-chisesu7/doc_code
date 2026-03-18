@@ -1,0 +1,32 @@
+{
+  "name": "Wilson Chisessu",
+  "username": "wilson.chisessu",
+  "email": "wilson@example.com",
+  "role": "IT Systems Engineer",
+  "location": "Cape Town, South Africa",
+  "skills": [
+    "System Administration",
+    "Network Configuration & Troubleshooting",
+    "Windows Server & Active Directory",
+    "Linux/Unix Administration",
+    "Virtualization (VMware, Hyper-V)",
+    "Cloud Infrastructure (AWS, Azure)",
+    "IT Security & Firewalls",
+    "Backup & Disaster Recovery",
+    "DNS, DHCP, TCP/IP",
+    "Hardware & Server Maintenance",
+    "Scripting (PowerShell, Bash, Python)",
+    "IT Support & Helpdesk",
+    "Monitoring & Alerting",
+    "ITIL / IT Service Management"
+  ],
+  "social": {
+    "github": "github.com/wilson-chisessu"
+  },
+  "projects": [
+    {
+      "name": "ai_test",
+      "description": "Collection of CLI utility scripts"
+    }
+  ]
+}
